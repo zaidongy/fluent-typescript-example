@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "rootDir": "src",
+        "outDir": "dist/src",
+        "module": "nodenext",
+        "target": "es2021",
+        "moduleResolution": "nodenext",
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "src/fluent/**"],
+    "references": []
+}
